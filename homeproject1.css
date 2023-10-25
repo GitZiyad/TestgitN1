@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Roboto&display=swap');
+*{font-family: 'Gabarito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+    
+.navbardiv{
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding-left: 10%;
+    
+}
+.logoimage{
+    margin-top: 10px;
+    width: 200px;
+    
+}
+.listnavdiv{  
+    padding-right: 20%;
+}
+.listnav{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: gray;
+}
+
+.Aboutus{
+    color: rgb(103, 218, 155);
+}
+.Aboutus:hover{
+    cursor: pointer;
+    color:  gray; 
+}
+.elelist:hover{
+    cursor: pointer;
+    color:  rgb(103, 218, 155); 
+}
+.divtop{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragraphe1{
+    margin-top: 30px;
+    font-size:x-large;
+    color: rgb(103, 218, 155);
+
+}
+.divmid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cardiv{
+    margin: auto;
+    display: flex;
+    font-size: small;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    margin-top: 50px;
+}
+.greendiv{
+    
+    float: left;
+    width: 30%;
+    height: 280px;
+    background-color: rgb(103, 218, 155);
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.bluediv{
+    
+    float: left;
+    width: 30%;
+    height: 280px;
+    background-color: rgb(114, 114, 248);
+    padding: 40px;
+    border-radius: 10px;
+
+
+}
+.blackdiv{
+    float: right;
+    width: 30%;
+    height: 280px;
+    background-color: rgb(30, 31, 34);
+    padding: 40px;
+    border-radius: 10px;
+
+}
+#p{
+    font-size: medium;
+}
+.citychose{
+    
+    color: white;
+    background: none;
+    height: 20%;
+    border: none;
+    
+}
+.specialitychose{
+   
+    color: white;
+    background: none;
+    height: 20%;
+    border: none;
+}
+
+#opcolor{
+    color: black;
+}

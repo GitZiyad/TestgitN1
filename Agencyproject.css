@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Gabarito&family=Poppins&family=Roboto&display=swap');
+*{
+    font-family: 'Bitter', serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+}
+.logo{
+    height: 14vh;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.list{
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    
+    
+}
+.list:hover{
+    cursor: pointer;
+    color: cadetblue;
+    
+}
+.icons{
+display: flex;
+gap: 10px;
+
+}
+.icons:hover{
+    cursor: pointer;
+}
+.icon{
+    background-color: gray;
+    border-radius: 100px;
+    padding: 5px;
+    
+}
+
+.home{
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://www.visitmorocco.com/sites/default/files/styles/thumbnail_events_slider/public/thumbnails/image/desert.jpg?itok=-SRlMkSb');
+}
+.titlemain{
+    font-size: 50px;
+    font-weight: 900;
+    color: beige
+}
+p{
+    font-size: 20px;
+    
+}
+.nosoffres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nosoffrestitle{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  margin: 30px 0px;
+  
+}
+.offre1{
+    margin-top: 3%;
+}
+.taghazout{
+    height: 35vh;
+    width: 20vw;
+    border-radius: 20px;
+    
+}
+.title{
+    margin: 0px 25px;
+    color: gray;
+    font-size: medium;
+    
+}
+p{
+    font: bold;
+    margin: 5px 25px;
+}
+.offres{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bottonoffre{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+}
+.footer {
+    height: 15vw;
+    width: 100vw;
+    background-color: chocolate;
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+.parent{
+   position: relative;
+
+
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+p{
+    font-size: 10px;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+}
+.box{
+    background-color: yellow;
+    padding: 30px;
+
+
+}
